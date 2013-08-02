@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Terr_Callout_1%2E0</fullName>
+    <types>
+        <members>VS_AccountAlignmentCallout</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>VS_AccountAlignment</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Account.VS_terr_callout_trigger__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Account.Territory_callout_trigger_to_false</members>
+        <members>Address_vod__c.Territory_callout_update_Acc_trigger</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Account.Territory callout - reset trigger flag</members>
+        <members>Address_vod__c.Territory Callout - set trigger flag</members>
+        <name>WorkflowRule</name>
+    </types>
+    <version>24.0</version>
+</Package>
